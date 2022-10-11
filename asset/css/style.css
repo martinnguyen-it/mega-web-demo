@@ -47,7 +47,8 @@ h6 {
 }
 
 .row {
-    margin: 0 -10px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .row-0 {
@@ -388,4 +389,284 @@ h6 {
     height: auto;
     display: inline-block;
     vertical-align: middle;
+}
+
+#poster {
+    background-color: #fff;
+    padding: 120px 0;
+}
+
+#poster .author {
+    background: #ff7243;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+
+#poster .box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #f2f6fa;
+    border-radius: 3px;
+
+}
+
+#poster .box h5 {
+    color: #363f48;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#poster .box p {
+    color: #818e9b;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#poster .box .btn {
+    background: #f2f6fa;
+    font-size: 14px;
+    padding: 6px 14px;
+    color: #818e9b;
+}
+
+#poster .box-icon {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#poster .icon {
+    color: #dde4ea;
+    font-size: 65px;
+}
+
+#poster .box-content {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#poster img {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#form-estimation {
+    background-image: linear-gradient(rgba(0, 200, 83, 0.8), rgba(0, 200, 83, 0.8)),url(../img/studio-form-bg.jpg);
+    background-color: #363f48;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 150px 0;
+}
+
+#form-estimation .container {
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#form-estimation .box {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px 0px rgb(0 0 0 / 8%);
+}
+
+#form-estimation .label {
+    background: #f2f6fa;
+}
+
+#form-estimation .sections-heading {
+    font-size: 28px;
+}
+
+#form-estimation .sections-sub-heading {
+    margin-bottom: 30px;
+}
+
+#form-estimation .form-control {
+    width: 100%;
+    display: block;
+    background: #f2f6fa;
+    padding: 14px 15px;
+    border: 0px;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    margin-bottom: 20px;
+    
+}
+
+#form-estimation .form-control::placeholder {
+    opacity: 0.7;
+}
+
+#form-estimation  .btn {
+    background: #ff7243;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    padding: 18px 0;
+    margin-bottom: 20px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+#partner {
+    background: #f2f6fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#partner .author {
+    background-color: #fff;
+}
+
+#partner .sections-sub-heading {
+    margin-bottom: 30px;
+}
+
+#partner .row {
+    padding: 30px 0;
+}
+
+#question {
+    padding: 150px 0;
+}
+
+#question .label {
+    background: #fff;
+}
+
+#question .icon {
+    display: block;
+    color: #00c853;
+    font-size: 80px;
+    line-height: 60px;
+    padding-bottom: 30px;
+}
+
+#question .box {
+    padding: 100px 30px;
+    overflow: hidden;
+    border: 2px solid #f2f6fa;
+    border-radius: 3px;
+    background: #fff;
+    text-align: center;
+}
+
+#question .box h3 {
+    color: #363f48;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#question .box p {
+    color: #818e9b;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#question .box .btn {
+    background: #f2f6fa;
+    font-size: 14px;
+    padding: 6px 34px;
+    margin-bottom: 10px;
+    color: #818e9b;
+}
+
+#question .heading {
+    padding-top: 30px;
+    color: #363F48;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+#question .sub-heading {
+    color: #818e9b;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#slogan {
+    background-image: linear-gradient(rgba(0, 200, 83, 0.8), rgba(0, 200, 83, 0.8)),url(../img/studio-testimonials-bg.jpg);
+    background-color: #363f48;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 100px 0;
+}
+
+#slogan .container {
+    text-align: center;
+}
+
+#slogan .icon {
+    max-width: 127px;
+}
+
+#slogan .content {
+    color: #9DFAC3;
+    font-family: 'Montserrat', sans-serif;
+    width: 718px;
+    margin: 10px auto 30px;    
+}
+
+#slogan  .btn {
+    background: #ff7243;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#about {
+    padding: 50px 0;
+    background: #f2f6fa;
+}
+
+#about .content {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 90px;
+    color: #818e9b;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about .btn {
+    padding: 6px 14px;
+    display: table-cell;
+    color: #818e9b;
+    border: 3px solid;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#about .btn:hover {
+    
 }
